@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HierarchyTree Component should download the hierarchy as a JSON file when clicking "Salvar Árvore" 1`] = `
+<div>
+  <div>
+    <h1>
+      Árvore de palavras
+    </h1>
+    <div>
+      <input
+        placeholder="Adicione uma palavra"
+        type="text"
+        value=""
+      />
+      <input
+        placeholder="Caminho (ex: Animais.Mamíferos)"
+        type="text"
+        value=""
+      />
+      <button>
+        Adicionar Palavra
+      </button>
+    </div>
+    <div>
+      <div
+        style="margin-left: 0px;"
+      >
+        Animais
+        <ul />
+      </div>
+    </div>
+    <button>
+      Salvar Árvore
+    </button>
+  </div>
+</div>
+`;
